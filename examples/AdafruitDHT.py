@@ -35,7 +35,7 @@ else:
     print('Usage: sudo ./Adafruit_DHT.py [11|22|2302] <GPIO pin number>')
     print('Example: sudo ./Adafruit_DHT.py 2302 4 - Read from an AM2302 connected to GPIO pin #4')
     sys.exit(1)
-
+#!/usr/bin/python3
 # Try to grab a sensor reading.  Use the read_retry method which will retry up
 # to 15 times to get a sensor reading (waiting 2 seconds between each retry).
 humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
@@ -52,3 +52,11 @@ if humidity is not None and temperature is not None:
 else:
     print('Failed to get reading. Try again!')
     sys.exit(1)
+while true:
+   h0, t0 = Adafruit_DHT.read_retry(sensor, pin)
+if h0 is not None and t0 is not None:
+   print('Temp={0:0.1f}*  Humidity={1:0.1f}%'.format(t0, h0))
+else:
+   print('Failed to get reading. Try again!')
+   sys.exit(1)
+
