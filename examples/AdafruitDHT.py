@@ -1,38 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pulls
-Issues
-Marketplace
-Explore
- 
-@07050543 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-summerlights0208
-/
-Adafruit_Python_DHT
-forked from adafruit/Adafruit_Python_DHT
-0
-0861
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-Adafruit_Python_DHT/examples/AdafruitDHT.py /
-@summerlights0208
-summerlights0208 Changes to be committed:
-…
-Latest commit 5be6665 2 days ago
- History
- 5 contributors
-@summerlights0208@tdicola@mueller-ma@lukeknipe@bahamas10
-Executable File  114 lines (89 sloc)  3.74 KB
-  
 #!/usr/bin/python3
 # Copyright (c) 2014 Adafruit Industries
 # Author: Tony DiCola
